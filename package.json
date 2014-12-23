@@ -1,0 +1,13 @@
+{
+  "name"         : "reagent",
+  "version"      : "0.0.1",
+  "description"  : "RE sites scraper",
+  "main"         : "server.js",
+  "author"       : "yshulman",
+  "dependencies" : {
+    "phantom"    : "latest",
+    "request"    : "latest",
+    "http"       : "latest",
+    "cheerio"    : "latest"
+  }
+}

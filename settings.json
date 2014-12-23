@@ -1,0 +1,10 @@
+{
+    "mainURL": "http://eco99fm.maariv.co.il/RecordedPrograms/?RecordedCategoryId=1",
+    "playerURLPrefix": "http://eco99fm.maariv.co.il/jwplayer/AudioWindow.aspx?id=",
+    "sourceFilePrefix": "http://eco99fm.maariv.co.il/mediafiles/",
+
+    "localPath": "./",
+    "tmpPath": "/tmp/",
+    "destinationPath": "/Users/i307349/Dropbox/Playlist/",
+    "latestMainHTML": "latest-main-html.html"
+}
