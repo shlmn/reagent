@@ -1,0 +1,253 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json reagent@0.0.1 No repository field.
+5 warn package.json reagent@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/i307349/Documents/workspace/reagent',
+7 verbose install   [ 'phantom', 'request', 'http', 'cheerio' ] ]
+8 info preinstall reagent@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'request@latest', null ]
+11 verbose cache add name=undefined spec="request@latest" args=["request@latest",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'request@latest',
+12 verbose parsed url   path: 'request@latest',
+12 verbose parsed url   href: 'request@latest' }
+13 verbose cache add [ 'http@latest', null ]
+14 verbose cache add name=undefined spec="http@latest" args=["http@latest",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'http@latest',
+15 verbose parsed url   path: 'http@latest',
+15 verbose parsed url   href: 'http@latest' }
+16 verbose cache add [ 'cheerio@latest', null ]
+17 verbose cache add name=undefined spec="cheerio@latest" args=["cheerio@latest",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'cheerio@latest',
+18 verbose parsed url   path: 'cheerio@latest',
+18 verbose parsed url   href: 'cheerio@latest' }
+19 verbose cache add name="request" spec="latest" args=["request","latest"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'latest',
+20 verbose parsed url   path: 'latest',
+20 verbose parsed url   href: 'latest' }
+21 verbose addNamed [ 'request', 'latest' ]
+22 verbose addNamed [ null, null ]
+23 verbose cache add name="http" spec="latest" args=["http","latest"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'latest',
+24 verbose parsed url   path: 'latest',
+24 verbose parsed url   href: 'latest' }
+25 verbose addNamed [ 'http', 'latest' ]
+26 verbose addNamed [ null, null ]
+27 verbose cache add [ 'phantom@latest', null ]
+28 verbose cache add name=undefined spec="phantom@latest" args=["phantom@latest",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'phantom@latest',
+29 verbose parsed url   path: 'phantom@latest',
+29 verbose parsed url   href: 'phantom@latest' }
+30 verbose cache add name="cheerio" spec="latest" args=["cheerio","latest"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'latest',
+31 verbose parsed url   path: 'latest',
+31 verbose parsed url   href: 'latest' }
+32 verbose addNamed [ 'cheerio', 'latest' ]
+33 verbose addNamed [ null, null ]
+34 silly lockFile 5da6dfb1-request-latest request@latest
+35 verbose lock request@latest /Users/i307349/.npm/5da6dfb1-request-latest.lock
+36 silly lockFile 2d1e317e-http-latest http@latest
+37 verbose lock http@latest /Users/i307349/.npm/2d1e317e-http-latest.lock
+38 silly lockFile b5ca765b-cheerio-latest cheerio@latest
+39 verbose lock cheerio@latest /Users/i307349/.npm/b5ca765b-cheerio-latest.lock
+40 verbose cache add name="phantom" spec="latest" args=["phantom","latest"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'latest',
+41 verbose parsed url   path: 'latest',
+41 verbose parsed url   href: 'latest' }
+42 verbose addNamed [ 'phantom', 'latest' ]
+43 verbose addNamed [ null, null ]
+44 silly lockFile bc153596-phantom-latest phantom@latest
+45 verbose lock phantom@latest /Users/i307349/.npm/bc153596-phantom-latest.lock
+46 info addNameTag [ 'request', 'latest' ]
+47 info addNameTag [ 'phantom', 'latest' ]
+48 info addNameTag [ 'cheerio', 'latest' ]
+49 info addNameTag [ 'http', 'latest' ]
+50 verbose request where is /http
+51 verbose request registry http://registry.npmjs.org/
+52 verbose request id e0bca9159c30eb9e
+53 verbose url raw /http
+54 verbose url resolving [ 'http://registry.npmjs.org/', './http' ]
+55 verbose url resolved http://registry.npmjs.org/http
+56 verbose request where is http://registry.npmjs.org/http
+57 info trying registry request attempt 1 at 16:36:56
+58 http GET http://registry.npmjs.org/http
+59 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+60 verbose request where is /request
+61 verbose request registry http://registry.npmjs.org/
+62 verbose url raw /request
+63 verbose url resolving [ 'http://registry.npmjs.org/', './request' ]
+64 verbose url resolved http://registry.npmjs.org/request
+65 verbose request where is http://registry.npmjs.org/request
+66 info trying registry request attempt 1 at 16:36:56
+67 verbose etag "9578KK4M42WQQ6MEX0BXEJVP0"
+68 http GET http://registry.npmjs.org/request
+69 verbose request where is /phantom
+70 verbose request registry http://registry.npmjs.org/
+71 verbose url raw /phantom
+72 verbose url resolving [ 'http://registry.npmjs.org/', './phantom' ]
+73 verbose url resolved http://registry.npmjs.org/phantom
+74 verbose request where is http://registry.npmjs.org/phantom
+75 info trying registry request attempt 1 at 16:36:56
+76 verbose etag "DXGJ0K7L09VLTMWBVL74VO2I6"
+77 http GET http://registry.npmjs.org/phantom
+78 verbose request where is /cheerio
+79 verbose request registry http://registry.npmjs.org/
+80 verbose url raw /cheerio
+81 verbose url resolving [ 'http://registry.npmjs.org/', './cheerio' ]
+82 verbose url resolved http://registry.npmjs.org/cheerio
+83 verbose request where is http://registry.npmjs.org/cheerio
+84 info trying registry request attempt 1 at 16:36:56
+85 verbose etag "2USPHF8MTXQ4DUIH3UM0V3Z22"
+86 http GET http://registry.npmjs.org/cheerio
+87 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+88 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+89 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+90 info trying registry request attempt 2 at 16:37:06
+91 http GET http://registry.npmjs.org/http
+92 info trying registry request attempt 2 at 16:37:06
+93 verbose etag "9578KK4M42WQQ6MEX0BXEJVP0"
+94 http GET http://registry.npmjs.org/request
+95 info trying registry request attempt 2 at 16:37:06
+96 verbose etag "DXGJ0K7L09VLTMWBVL74VO2I6"
+97 http GET http://registry.npmjs.org/phantom
+98 info trying registry request attempt 2 at 16:37:06
+99 verbose etag "2USPHF8MTXQ4DUIH3UM0V3Z22"
+100 http GET http://registry.npmjs.org/cheerio
+101 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+102 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+103 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+104 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+105 info trying registry request attempt 3 at 16:38:06
+106 http GET http://registry.npmjs.org/http
+107 silly lockFile 2d1e317e-http-latest http@latest
+108 silly lockFile 2d1e317e-http-latest http@latest
+109 info trying registry request attempt 3 at 16:38:06
+110 verbose etag "2USPHF8MTXQ4DUIH3UM0V3Z22"
+111 http GET http://registry.npmjs.org/cheerio
+112 info trying registry request attempt 3 at 16:38:06
+113 verbose etag "9578KK4M42WQQ6MEX0BXEJVP0"
+114 http GET http://registry.npmjs.org/request
+115 info trying registry request attempt 3 at 16:38:06
+116 verbose etag "DXGJ0K7L09VLTMWBVL74VO2I6"
+117 http GET http://registry.npmjs.org/phantom
+118 silly registry.get cb [ 304, undefined ]
+119 verbose etag http://registry.npmjs.org/phantom from cache
+120 silly registry.get cb [ 304, undefined ]
+121 verbose etag http://registry.npmjs.org/request from cache
+122 silly registry.get cb [ 304, undefined ]
+123 verbose etag http://registry.npmjs.org/cheerio from cache
+124 verbose addNamed [ 'cheerio', '0.18.0' ]
+125 verbose addNamed [ '0.18.0', '0.18.0' ]
+126 silly lockFile 6b7368ff-cheerio-0-18-0 cheerio@0.18.0
+127 verbose lock cheerio@0.18.0 /Users/i307349/.npm/6b7368ff-cheerio-0-18-0.lock
+128 verbose addNamed [ 'request', '2.48.0' ]
+129 verbose addNamed [ '2.48.0', '2.48.0' ]
+130 silly lockFile af3f4873-request-2-48-0 request@2.48.0
+131 verbose lock request@2.48.0 /Users/i307349/.npm/af3f4873-request-2-48-0.lock
+132 verbose addNamed [ 'phantom', '0.7.0' ]
+133 verbose addNamed [ '0.7.0', '0.7.0' ]
+134 silly lockFile dc42dc23-phantom-0-7-0 phantom@0.7.0
+135 verbose lock phantom@0.7.0 /Users/i307349/.npm/dc42dc23-phantom-0-7-0.lock
+136 silly lockFile 6b7368ff-cheerio-0-18-0 cheerio@0.18.0
+137 silly lockFile 6b7368ff-cheerio-0-18-0 cheerio@0.18.0
+138 silly lockFile af3f4873-request-2-48-0 request@2.48.0
+139 silly lockFile af3f4873-request-2-48-0 request@2.48.0
+140 silly lockFile b5ca765b-cheerio-latest cheerio@latest
+141 silly lockFile b5ca765b-cheerio-latest cheerio@latest
+142 silly lockFile 5da6dfb1-request-latest request@latest
+143 silly lockFile 5da6dfb1-request-latest request@latest
+144 silly lockFile dc42dc23-phantom-0-7-0 phantom@0.7.0
+145 silly lockFile dc42dc23-phantom-0-7-0 phantom@0.7.0
+146 silly lockFile bc153596-phantom-latest phantom@latest
+147 silly lockFile bc153596-phantom-latest phantom@latest
+148 error network getaddrinfo ENOTFOUND
+148 error network This is most likely not a problem with npm itself
+148 error network and is related to network connectivity.
+148 error network In most cases you are behind a proxy or have bad network settings.
+148 error network
+148 error network If you are behind a proxy, please make sure that the
+148 error network 'proxy' config is set properly.  See: 'npm help config'
+149 error System Darwin 14.0.0
+150 error command "node" "/usr/local/bin/npm" "install"
+151 error cwd /Users/i307349/Documents/workspace/reagent
+152 error node -v v0.10.33
+153 error npm -v 1.4.28
+154 error syscall getaddrinfo
+155 error code ENOTFOUND
+156 error errno ENOTFOUND
+157 verbose exit [ 1, true ]

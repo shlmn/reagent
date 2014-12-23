@@ -1,7 +1,44 @@
 {
-    "mainURL": "http://eco99fm.maariv.co.il/RecordedPrograms/?RecordedCategoryId=1",
-    "playerURLPrefix": "http://eco99fm.maariv.co.il/jwplayer/AudioWindow.aspx?id=",
-    "sourceFilePrefix": "http://eco99fm.maariv.co.il/mediafiles/",
+    "mainURL": "http://www.yad2.co.il/Nadlan/sales.php",
+
+    "preferences": {
+        "area": ["AreaID",""],
+        "city": ["City", "תל אביב יפו"],
+        "neighborhood": ["Neighborhood",""],
+        "type": ["HomeTypeID",""],
+        "fromRooms": ["fromRooms",""],
+        "untilRooms": ["untilRooms",""],
+        "fromPrice": ["fromPrice",""],
+        "topPrice": ["untilPrice","4000000"],
+        "priceType": ["PriceType","1"],
+        "fromSquareMeter": ["fromSquareMeter",""],
+        "topSquareMeter": ["untilSquareMeter",""],
+        "parking": ["Parking","1"],
+        "elevator": ["Elevator","1"],
+        "fromFloor": ["FromFloor","1"],
+        "topFloor": ["ToFloor",""],
+        "street": ["Info"]
+    },
+
+    "streets": [
+        "רמברנדט","רמברנט",
+        "ליליאן","ליליין",
+        "אנטוקולסקי","אנטקולסקי",
+        "שטרוק",
+        "סוטין",
+        "בצלאל",
+        "אורי",
+        "שילה",
+        "מודליאני", "מודילאני",
+        "פומבדיתא",
+        "פישמן",
+        "נהרדע", "נהרדעא",
+        "בארי",
+        "גליצנשטין", "גליצנשטיין",
+        "חכמי קירואן"
+
+
+    ],
 
     "localPath": "./",
     "tmpPath": "/tmp/",
